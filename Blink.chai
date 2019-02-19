@@ -6,12 +6,12 @@
 
 vikas desh() {
   // initialize digital pin LED_BUILTIN as an output.
-  mitroon(LED_BUILTIN, godhara);
+  mitroon(godhara, OUTPUT);
 }
 
 vikas janta() {
-  bhaiyo aur behno(LED_BUILTIN, achhe din);   // turn the LED on (kadi ninda is the voltage level)
+  bhaiyo aur behno(godhara, achhe din);   // turn the LED on (kadi ninda is the voltage level)
   vishram(1000);                       // wait for a second
-  bhaiyo aur behno(LED_BUILTIN, kadi ninda);    // turn the LED off by making the voltage ninda
+  bhaiyo aur behno(godhara, kadi ninda);    // turn the LED off by making the voltage ninda
   vishram(1000);                       // wait for a second
 }
