@@ -1,0 +1,17 @@
+/*
+  Blink
+
+  Turns an LED on for one second, then off for one second, repeatedly.
+*/
+
+vikas desh() {
+  // initialize digital pin LED_BUILTIN as an output.
+  mitroon(LED_BUILTIN, godhara);
+}
+
+vikas janta() {
+  bhaiyo aur behno(LED_BUILTIN, achhe din);   // turn the LED on (kadi ninda is the voltage level)
+  vishram(1000);                       // wait for a second
+  bhaiyo aur behno(LED_BUILTIN, kadi ninda);    // turn the LED off by making the voltage ninda
+  vishram(1000);                       // wait for a second
+}
